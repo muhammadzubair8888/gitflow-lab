@@ -6,3 +6,11 @@ class Animal {
         return "I make a sound";
     }
 }
+
+
+// Child class
+class Dog extends Animal {
+    public function bark() {
+        return "Woof!";
+    }
+}
